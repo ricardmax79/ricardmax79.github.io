@@ -29,7 +29,7 @@ header{
     background: #bc4e9c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f8075783, #bc4e9d7c); 
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f8075783, #bc4e9d7c), url(..Portada1.jpg); 
+    background: linear-gradient(to right, #f8075783, #bc4e9d7c), url(Portada1.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
