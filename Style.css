@@ -5,7 +5,9 @@
 }
 
 body{
-    font-family: 'open sans';
+    font-family: 'open sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .contenedor{
     padding: 60px 0;
@@ -29,11 +31,13 @@ header{
     background: #bc4e9c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f8075783, #bc4e9d7c); 
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0717f883, #6b4ebc7c), url(../Portada1.jpg); 
+    background: linear-gradient(to right, #0717f883, #6b4ebc7c), url(../img/Portada1.jpg); 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    text-align: center;
+    padding: 10px;
 }
 
 nav > a{
@@ -131,7 +135,7 @@ header .textos-header{
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
-    height: 400px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
